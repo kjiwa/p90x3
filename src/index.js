@@ -78,7 +78,7 @@ p90x3.Index = function () {
 
 	this.initOptions_();
 	this.initScheduleNavigation_();
-
+	this.initStartOverLink_();
 	this.renderWorkoutList_();
 	this.refresh_();
 };
@@ -285,6 +285,30 @@ p90x3.Index = function () {
 
 			prev.addEventListener('click', prevCallback, false);
 			next.addEventListener('click', nextCallback, false);
+		}(this));
+	};
+
+	/**
+	 * @private
+	 * @return {void}
+	 */
+	p90x3.Index.prototype.initStartOverLink_ = function () {
+		var e = document.querySelector('.program_start_over');
+		if (!e) {
+			return;
+		}
+
+		(function (index) {
+			/**
+			 * @param {Event} e
+			 * @return {void}
+			 */
+			var callback = function (e) {
+				index.setStart_(new Date());
+				index.refresh_();
+			};
+
+			e.addEventListener('click', callback, false);
 		}(this));
 	};
 

@@ -37,7 +37,6 @@ module.exports = function (grunt) {
 				closurePath: '/home/kjiwa/opt/closure',
 				js: 'src/*.js',
 				jsOutputFile: 'out/p90x3.js',
-				noreport: true,
 				options: {
 					compilation_level: 'ADVANCED_OPTIMIZATIONS',
 					language_in: 'ECMASCRIPT5_STRICT',

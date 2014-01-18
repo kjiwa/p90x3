@@ -156,11 +156,11 @@ p90x3.Calendar = function (date, clickHandler) {
 		/**
 		 * @return {void}
 		 */
-		var callback_ = function () {
+		var callback = function () {
 			c.render();
 		};
 
-		p90x3.Events.receive(c.EVENT_SELECT_, callback_);
+		p90x3.Events.receive(c.EVENT_SELECT_, callback);
 	}(this));
 };
 
