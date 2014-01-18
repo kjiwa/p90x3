@@ -20,19 +20,11 @@ Place your videos (in MP4 or OGV format) in this subdirectory to enable video su
 * accelerator.mp4
 * agility-x.mp4
 * cvx.mp4
-* decelerator.mp4
-* dynamix.mp4
-* eccentric-lower.mp4
-* eccentric-upper.mp4
-* incinerator.mp4
-* isometrix.mp4
-* mmx.mp4
-* pilates-x.mp4
-* the-challenge.mp4
-* the-warrior.mp4
-* total-synergistics.mp4
-* triometrics.mp4
-* x3-yoga.mp4
+* etc.
+
+## Demo
+
+See a live demo (without videos) at http://jsbin.com/OkadaHow/1/.
 
 ## Screenshot
 
