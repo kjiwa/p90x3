@@ -1,6 +1,14 @@
 {
 	"name": "p90x3",
+	"license": "MIT",
 	"version": "0.0.1",
+
+	"author": {
+		"name": "Kamil Jiwa",
+		"email": "kamil.jiwa@gmail.com",
+		"url": "http://www.crimsonglow.ca/~kjiwa/"
+	}
+
 	"devDependencies": {
 		"grunt": "*",
 		"grunt-cli": "*",
@@ -8,7 +16,6 @@
 		"grunt-contrib-clean": "*",
 		"grunt-contrib-copy": "*",
 		"grunt-contrib-cssmin": "*",
-		"grunt-contrib-jshint": "*",
-		"grunt-contrib-nodeunit": "*"
+		"grunt-contrib-jshint": "*"
 	}
 }
