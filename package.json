@@ -1,0 +1,14 @@
+{
+	"name": "p90x3",
+	"version": "0.0.1",
+	"devDependencies": {
+		"grunt": "*",
+		"grunt-cli": "*",
+		"grunt-contrib-clean": "*",
+		"grunt-contrib-copy": "*",
+		"grunt-contrib-cssmin": "*",
+		"grunt-contrib-jshint": "*",
+		"grunt-contrib-nodeunit": "*",
+		"grunt-contrib-uglify": "*"
+	}
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>P90X3</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="p90x3.css">
+ </head>
+ <body>
+<div class="header">
+ <h1>P90X3</h1>
+</div>
+
+<div class="options">
+ <h2>Options</h2>
+ <ul>
+  <li>
+   <label for="plan">Plan:</label>
+   <select name="plan"></select>
+  <li><label for="start">Start:</label> <input type="text" name="start">
+ </ul>
+</div>
+
+<div class="schedule">
+ <h2>Progress</h2>
+ <div class="schedule_prev"></div>
+ <div class="schedule_calendars"></div>
+ <div class="schedule_next"></div>
+</div>
+
+<div class="program">
+ <div class="program_summary">
+  <div class="program_countdown">Days left to start: <div class="program_countdown_days"></div>.</div>
+  <div class="program_today">Today&#39;s workout is: <div class="program_today_name"></div>.</div>
+  <div class="program_tomorrow">Tomorrow&#39;s workout is: <div class="program_tomorrow_name"></div>.</div>
+  <div class="program_victory">You&#39;re done! Only one thing to do -- start over!</div>
+ </div>
+ <div class="program_video">
+  <video width="640" height="360" controls></video>
+ </div>
+ <div class="program_caption"></div>
+</div>
+
+<div class="workouts">
+ <h2>Workouts</h2>
+ <ul></ul>
+</div>
+
+<script type="application/javascript" src="p90x3.js"></script>
+ </body>
+</html>

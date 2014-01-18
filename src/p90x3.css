@@ -1,0 +1,240 @@
+* {
+	background-color: inherit;
+	border: none;
+	color: inherit;
+	display: block;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	letter-spacing: inherit;
+	margin: 0px;
+	padding: 0px;
+	text-align: inherit;
+	text-decoration: inherit
+}
+
+html {
+	background-color: #fff;
+	color: #000;
+	font-weight: normal;
+	letter-spacing: 0px;
+	text-align: left;
+	text-decoration: none;
+}
+
+head {
+	display: none;
+}
+
+button, input, select {
+	border: 1px solid #000;
+}
+
+h1 {
+	font-size: 16pt;
+}
+
+h2 {
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 14pt;
+}
+
+h4 {
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+h5 {
+	font-size: 12pt;
+}
+
+h6 {
+	font-weight: bold;
+}
+
+script {
+	display: none;
+}
+
+table {
+	border-collapse: collapse;
+	display: table;
+}
+
+thead, tbody {
+	display: table-row-group;
+}
+
+tr {
+	display: table-row;
+}
+
+th, td {
+	display: table-cell;
+}
+
+html {
+	text-align: center;
+}
+
+body {
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 10pt;
+	letter-spacing: 1px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body > div {
+	margin: 4px;
+	padding: 4px;
+}
+
+body > div > * {
+	margin: 4px;
+}
+
+.header {
+	background-color: #000;
+	color: #fff;
+}
+
+.options ul {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+.options li {
+	padding: 4px;
+}
+
+.options li > * {
+	display: inline-block;
+	min-width: 4em;
+}
+
+.options label {
+	font-weight: bold;
+}
+
+.options input {
+	padding: 2px;
+}
+
+.schedule > div {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.schedule_next {
+	border-bottom: 16px solid transparent;
+	border-left: 16px solid #000;
+	border-top: 16px solid transparent;
+	cursor: pointer;
+	height: 0px;
+	width: 0px;
+}
+
+.schedule_prev {
+	border-bottom: 16px solid transparent;
+	border-right: 16px solid #000;
+	border-top: 16px solid transparent;
+	cursor: pointer;
+	height: 0px;
+	width: 0px;
+}
+
+.schedule_calendars > div {
+	border: 1px solid #000;
+	display: inline-block;
+	margin: 4px;
+	text-align: center;
+}
+
+.schedule_calendars thead {
+	background-color: #000;
+	color: #fff;
+}
+
+.schedule_calendars th, .schedule_calendars td {
+	width: 4ex;
+}
+
+.schedule_calendars td {
+	cursor: pointer;
+}
+
+.schedule_calendars td:hover {
+	background-color: #ddd;
+}
+
+.p90x3-calendar-inactive {
+	background-color: #ddd;
+	cursor: default !important;
+}
+
+.p90x3-calendar-selected:hover {
+	background-color: #ddd;
+}
+
+.p90x3-calendar-selected {
+	background-color: #33ff77;
+}
+
+.program_summary > div > div {
+	cursor: pointer;
+	display: inline;
+	font-weight: bold;
+}
+
+.program_summary > div > div:hover {
+	text-decoration: underline;
+}
+
+.program_video {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.program_video video {
+	display: inline-block;
+}
+
+.workouts {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.workouts ul {
+	display: inline-block;
+	width:768px;
+}
+
+.workouts li {
+	cursor: pointer;
+	display: inline-block;
+	font-weight: bold;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	width: 192px;
+}
+
+.workouts li:hover {
+	text-decoration: underline;
+}
+
+.p90x3-index-hidden {
+	display: none;
+}
+
+.p90x3-index-selected {
+	background-color: #777;
+	color: #fff;
+}
