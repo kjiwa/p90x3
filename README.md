@@ -14,3 +14,7 @@ $ node node_modules/grunt-cli/bin/grunt
 ```
 
 This will place `index.html`, `p90x3.css`, and `p90x3.js` in the `out/` subdirectory.
+
+## Screenshot
+
+![ScreenShot](https://raw.github.com/kjiwa/p90x3/master/p90x3-20140118.png)
