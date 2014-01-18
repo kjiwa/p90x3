@@ -7,7 +7,7 @@
 		"name": "Kamil Jiwa",
 		"email": "kamil.jiwa@gmail.com",
 		"url": "http://www.crimsonglow.ca/~kjiwa/"
-	}
+	},
 
 	"devDependencies": {
 		"grunt": "*",
