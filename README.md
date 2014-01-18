@@ -15,7 +15,7 @@ $ node node_modules/grunt-cli/bin/grunt
 
 This will place `index.html`, `p90x3.css`, and `p90x3.js` in the `out/` subdirectory. Just open `index.html` to start the application -- no web server is required.
 
-Please your videos (in MP4 or OGV format) in this subdirectory to enable video support. The videos should use names such as those listed below:
+Place your videos (in MP4 or OGV format) in this subdirectory to enable video support. The videos should use names such as those listed below:
 
 * accelerator.mp4
 * agility-x.mp4
