@@ -11,7 +11,7 @@ module.exports = function (grunt) {
 		},
 
 		copy: {
-			main: {
+			build: {
 				files: [
 					{
 						expand: true,
@@ -32,34 +32,53 @@ module.exports = function (grunt) {
 			}
 		},
 
-		uglify: {
+		'closure-compiler': {
 			build: {
-				src: [
-					'src/common.js',
-					'src/arrays.js',
-					'src/dates.js',
-					'src/events.js',
-					'src/html.js',
-					'src/i18n.js',
-					'src/properties.js',
-					'src/strings.js',
-					'src/video.js',
-					'src/calendar.js',
-					'src/workout.js',
-					'src/plan.js',
-					'src/index.js'
-				],
-
-				dest: 'out/p90x3.js'
+				closurePath: '/home/kjiwa/opt/closure',
+				js: 'src/*.js',
+				jsOutputFile: 'out/p90x3.js',
+				noreport: true,
+				options: {
+					compilation_level: 'ADVANCED_OPTIMIZATIONS',
+					language_in: 'ECMASCRIPT5_STRICT',
+					warning_level: 'VERBOSE'
+				}
 			}
 		}
 	};
 
 	grunt.initConfig(args);
+	grunt.loadNpmTasks('grunt-closure-compiler');
 	grunt.loadNpmTasks('grunt-contrib-clean');
 	grunt.loadNpmTasks('grunt-contrib-copy');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
 	grunt.loadNpmTasks('grunt-contrib-jshint');
-	grunt.loadNpmTasks('grunt-contrib-uglify');
-	grunt.registerTask('default', [ 'jshint', 'copy', 'cssmin', 'uglify' ]);
+	grunt.registerTask('default', [ 'jshint', 'copy', 'cssmin', 'closure-compiler' ]);
+
+	// args['closureCompiler'] = {
+	// 	options: {
+	// 		compilerFile: '/home/kjiwa/opt/closure/compiler.jar',
+	// 		compilerOpts: {
+	// 			compilation_level: 'ADVANCED_OPTIMIZATIONS',
+	// 			language_in: 'ECMASCRIPT5_STRICT',
+	// 			warning_level: 'VERBOSE'
+	// 		}
+	// 	},
+	//
+	// 	build: {
+	// 		src: [],
+	// 		dest: 'out/p90x3.js'
+	// 	}
+	// };
+	//
+	// grunt.loadNpmTasks('grunt-closure-compiler');
+
+	// uglify: {
+	// 	build: {
+	// 		src: [],
+	// 		dest: 'out/p90x3.js'
+	// 	}
+	// };
+	//
+	// grunt.loadNpmTasks('grunt-contrib-uglify');
 };

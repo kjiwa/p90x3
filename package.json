@@ -4,11 +4,11 @@
 	"devDependencies": {
 		"grunt": "*",
 		"grunt-cli": "*",
+		"grunt-closure-compiler": "*",
 		"grunt-contrib-clean": "*",
 		"grunt-contrib-copy": "*",
 		"grunt-contrib-cssmin": "*",
 		"grunt-contrib-jshint": "*",
-		"grunt-contrib-nodeunit": "*",
-		"grunt-contrib-uglify": "*"
+		"grunt-contrib-nodeunit": "*"
 	}
 }
