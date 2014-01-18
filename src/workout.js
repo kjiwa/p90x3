@@ -46,8 +46,8 @@ p90x3.Workout = function (name, videos) {
 	p90x3.Workout.ACCELERATOR = new p90x3.Workout(
 		p90x3.I18n.ACCELERATOR,
 		[
-			new p90x3.Video('.mp4', 'video/mp4'),
-			new p90x3.Video('accelerator.ogv', 'video/ogg')
+			new p90x3.Video('accelerator.ogv', 'video/ogg'),
+			new p90x3.Video('accelerator.mp4', 'video/mp4')
 		]
 	);
 
@@ -58,8 +58,8 @@ p90x3.Workout = function (name, videos) {
 	p90x3.Workout.AGILITY_X = new p90x3.Workout(
 		p90x3.I18n.AGILITY_X,
 		[
-			new p90x3.Video('agility-x.mp4', 'video/mp4'),
-			new p90x3.Video('agility-x.ogv', 'video/ogg')
+			new p90x3.Video('agility-x.ogv', 'video/ogg'),
+			new p90x3.Video('agility-x.mp4', 'video/mp4')
 		]
 	);
 
@@ -70,8 +70,8 @@ p90x3.Workout = function (name, videos) {
 	p90x3.Workout.CVX = new p90x3.Workout(
 		p90x3.I18n.CVX,
 		[
-			new p90x3.Video('cvx.mp4', 'video/mp4'),
-			new p90x3.Video('cvx.ogv', 'video/ogg')
+			new p90x3.Video('cvx.ogv', 'video/ogg'),
+			new p90x3.Video('cvx.mp4', 'video/mp4')
 		]
 	);
 
@@ -82,8 +82,8 @@ p90x3.Workout = function (name, videos) {
 	p90x3.Workout.DECELERATOR = new p90x3.Workout(
 		p90x3.I18n.DECELERATOR,
 		[
-			new p90x3.Video('decelerator.mp4', 'video/mp4'),
-			new p90x3.Video('decelerator.ogv', 'video/ogg')
+			new p90x3.Video('decelerator.ogv', 'video/ogg'),
+			new p90x3.Video('decelerator.mp4', 'video/mp4')
 		]
 	);
 
@@ -94,8 +94,8 @@ p90x3.Workout = function (name, videos) {
 	p90x3.Workout.DYNAMIX = new p90x3.Workout(
 		p90x3.I18n.DYNAMIX,
 		[
-			new p90x3.Video('dynamix.mp4', 'video/mp4'),
-			new p90x3.Video('dynamix.ogv', 'video/ogg')
+			new p90x3.Video('dynamix.ogv', 'video/ogg'),
+			new p90x3.Video('dynamix.mp4', 'video/mp4')
 		]
 	);
 
@@ -106,8 +106,8 @@ p90x3.Workout = function (name, videos) {
 	p90x3.Workout.ECCENTRIC_LOWER = new p90x3.Workout(
 		p90x3.I18n.ECCENTRIC_LOWER,
 		[
-			new p90x3.Video('eccentric-lower.mp4', 'video/mp4'),
-			new p90x3.Video('eccentric-lower.ogv', 'video/ogg')
+			new p90x3.Video('eccentric-lower.ogv', 'video/ogg'),
+			new p90x3.Video('eccentric-lower.mp4', 'video/mp4')
 		]
 	);
 
@@ -118,8 +118,8 @@ p90x3.Workout = function (name, videos) {
 	p90x3.Workout.ECCENTRIC_UPPER = new p90x3.Workout(
 		p90x3.I18n.ECCENTRIC_UPPER,
 		[
-			new p90x3.Video('eccentric-upper.mp4', 'video/mp4'),
-			new p90x3.Video('eccentric-upper.ogv', 'video/ogg')
+			new p90x3.Video('eccentric-upper.ogv', 'video/ogg'),
+			new p90x3.Video('eccentric-upper.mp4', 'video/mp4')
 		]
 	);
 
@@ -130,8 +130,8 @@ p90x3.Workout = function (name, videos) {
 	p90x3.Workout.INCINERATOR = new p90x3.Workout(
 		p90x3.I18n.INCINERATOR,
 		[
-			new p90x3.Video('incinerator.mp4', 'video/mp4'),
-			new p90x3.Video('incinerator.ogv', 'video/ogg')
+			new p90x3.Video('incinerator.ogv', 'video/ogg'),
+			new p90x3.Video('incinerator.mp4', 'video/mp4')
 		]
 	);
 
@@ -142,8 +142,8 @@ p90x3.Workout = function (name, videos) {
 	p90x3.Workout.ISOMETRIX = new p90x3.Workout(
 		p90x3.I18n.ISOMETRIX,
 		[
-			new p90x3.Video('isometrix.mp4', 'video/mp4'),
-			new p90x3.Video('isometrix.ogv', 'video/ogg')
+			new p90x3.Video('isometrix.ogv', 'video/ogg'),
+			new p90x3.Video('isometrix.mp4', 'video/mp4')
 		]
 	);
 
@@ -154,8 +154,8 @@ p90x3.Workout = function (name, videos) {
 	p90x3.Workout.MMX = new p90x3.Workout(
 		p90x3.I18n.MMX,
 		[
-			new p90x3.Video('mmx.mp4', 'video/mp4'),
-			new p90x3.Video('mmx.ogv', 'video/ogg')
+			new p90x3.Video('mmx.ogv', 'video/ogg'),
+			new p90x3.Video('mmx.mp4', 'video/mp4')
 		]
 	);
 
@@ -166,8 +166,8 @@ p90x3.Workout = function (name, videos) {
 	p90x3.Workout.PILATES_X = new p90x3.Workout(
 		p90x3.I18n.PILATES_X,
 		[
-			new p90x3.Video('pilates-x.mp4', 'video/mp4'),
-			new p90x3.Video('pilates-x.ogv', 'video/ogg')
+			new p90x3.Video('pilates-x.ogv', 'video/ogg'),
+			new p90x3.Video('pilates-x.mp4', 'video/mp4')
 		]
 	);
 
@@ -178,8 +178,8 @@ p90x3.Workout = function (name, videos) {
 	p90x3.Workout.THE_CHALLENGE = new p90x3.Workout(
 		p90x3.I18n.THE_CHALLENGE,
 		[
-			new p90x3.Video('the-challenge.mp4', 'video/mp4'),
-			new p90x3.Video('the-challenge.ogv', 'video/ogg')
+			new p90x3.Video('the-challenge.ogv', 'video/ogg'),
+			new p90x3.Video('the-challenge.mp4', 'video/mp4')
 		]
 	);
 
@@ -190,8 +190,8 @@ p90x3.Workout = function (name, videos) {
 	p90x3.Workout.THE_WARRIOR = new p90x3.Workout(
 		p90x3.I18n.THE_WARRIOR,
 		[
-			new p90x3.Video('the-warrior.mp4', 'video/mp4'),
-			new p90x3.Video('the-warrior.ogv', 'video/ogg')
+			new p90x3.Video('the-warrior.ogv', 'video/ogg'),
+			new p90x3.Video('the-warrior.mp4', 'video/mp4')
 		]
 	);
 
@@ -202,8 +202,8 @@ p90x3.Workout = function (name, videos) {
 	p90x3.Workout.TOTAL_SYNERGISTICS = new p90x3.Workout(
 		p90x3.I18n.TOTAL_SYNERGISTICS,
 		[
-			new p90x3.Video('total-synergistics.mp4', 'video/mp4'),
-			new p90x3.Video('total-synergistics.ogv', 'video/ogg')
+			new p90x3.Video('total-synergistics.ogv', 'video/ogg'),
+			new p90x3.Video('total-synergistics.mp4', 'video/mp4')
 		]
 	);
 
@@ -214,8 +214,8 @@ p90x3.Workout = function (name, videos) {
 	p90x3.Workout.TRIOMETRICS = new p90x3.Workout(
 		p90x3.I18n.TRIOMETRICS,
 		[
-			new p90x3.Video('triometrics.mp4', 'video/mp4'),
-			new p90x3.Video('triometrics.ogv', 'video/ogg')
+			new p90x3.Video('triometrics.ogv', 'video/ogg'),
+			new p90x3.Video('triometrics.mp4', 'video/mp4')
 		]
 	);
 
@@ -226,8 +226,8 @@ p90x3.Workout = function (name, videos) {
 	p90x3.Workout.X3_YOGA = new p90x3.Workout(
 		p90x3.I18n.X3_YOGA,
 		[
-			new p90x3.Video('x3-yoga.mp4', 'video/mp4'),
-			new p90x3.Video('x3-yoga.ogv', 'video/ogg')
+			new p90x3.Video('x3-yoga.ogv', 'video/ogg'),
+			new p90x3.Video('x3-yoga.mp4', 'video/mp4')
 		]
 	);
 
